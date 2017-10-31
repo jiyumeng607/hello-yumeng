@@ -1,0 +1,20 @@
+from turtle import *
+import random
+colors = ['yellow', 'silver', 'blue']
+star_size = random.randint(10, 40)
+for i in range(30):
+    pencolor(colors[i % 3])
+    penup()
+    goto(random.randint(-200, 200), random.randint(-200, 200))
+    pendown()
+    forward(50)
+    right(144)
+    forward(50)
+    right(144)
+    forward(50)
+    right(144)
+    forward(50)
+    right(144)
+    forward(50)
+    right(144)
+    pensize(2)

@@ -1,0 +1,29 @@
+# let the user know what's going on
+print ("My Magic Story")
+print ("Answer the questions below to play.")
+print ("-----------------------------------")
+
+# variables containing all of your story info
+date = raw_input("Enter a date: ")
+location = raw_input("Enter a location: ")
+person = raw_input("Who is your favorite person?: ")
+adjective = raw_input("Enter an adjective: ")
+animal = raw_input("Name an animal: ")
+fruit = raw_input("What's your least favorite fruit?: ")
+adjective2 = raw_input("Enter another adjective: ")
+name = raw_input("Name a cartoon's name: ")
+
+# this is the story. it is made up of strings and variables.
+# the \ at the end of each line let's the computer know our string is a long one
+# (a whole paragraph!) and we want to continue more code on the next line. 
+# play close attention to the syntax!
+
+story = "On a beautiful " + date + ", you are visiting " + location + " with " + person + ". " \
+" You guys come across an " + adjective + " " + animal + " on the street. " \
+" You two decided to bring it home as a pet and name it " + fruit + ". Two days later, " + fruit + \
+" bring a " + adjective2 + " bottle back, and " \
++ name + " lives in it." \
+" The one lives in the bottle promised you three wishes."
+
+# finally we print the story
+print (story)

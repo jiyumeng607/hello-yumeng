@@ -1,0 +1,9 @@
+from turtle import *
+import random
+colors1 = ['black', 'white', 'silver']
+for i in range(100):
+    pencolor(colors1[i % 3])
+    width(i / 100 + 1)
+    forward(i)
+    right(144)
+    pensize(2)
